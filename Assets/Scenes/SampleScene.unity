@@ -298,6 +298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1829173233}
   - component: {fileID: 1829173232}
+  - component: {fileID: 1829173234}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -364,9 +365,22 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829173231}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.96, y: 0.25, z: 0}
-  m_LocalScale: {x: 4.1579, y: 3.0066, z: 1}
+  m_LocalPosition: {x: -0.77, y: -0.48, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1829173234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829173231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e9cb43e89aa6e840a4a5d706817c9be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
